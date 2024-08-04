@@ -40,6 +40,14 @@ To use this script, follow these steps:
 2. Execute `(un)truster.vbs` first to set the operational mode.
 3. Once the mode is selected, execute `humanfactor.vbs` to perform the intended actions based on the chosen mode.
 
+## MessageBoxes
+![Untrusted (Real mode)](assets/git.png)
+#### Untrusted mode
+![Trusted (Exploit of human factor)](assets/git1.png)
+#### Trusted mode
+
+##### Actual only in this code
+
 ## Disclaimer
 
 This script is intended for educational and research purposes only. The author does not condone or support the use of this script for any malicious activities. Use it responsibly and ethically.
