@@ -10,7 +10,8 @@ strValue = objShell.RegRead(strKeyPath & "\" & strValueName)
 On Error Goto 0
 
 If strValue <> "" Then
-    MsgBox "Blya okey, Trusted!", vbInformation, "Trusted"
+    MsgBox "Blya okey, Trusted!", vbInformation, "Trusted" ' Trusted mode
 Else
-   MsgBox "Error when launching the application (0xc0150024)To exit the application, click the 'OK' button", vbCritical, "Untrusted"
+   MsgBox "Error when launching the application (0xc0150024)To exit the application, click the 'OK' button", vbCritical, "Untrusted" ' Untrusted
+    
 End If
